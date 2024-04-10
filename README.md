@@ -4,7 +4,7 @@
 
 
 ### Dataset
-The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows){:target="_blank"}, comprising listings of all the movies and TV shows available on Netflix from 2008 to 2021. The dataset consists of 12 columns and 8807 rows of data in a structured CSV format. These columns include:
+The dataset was obtained from <a href="https://www.kaggle.com/datasets/shivamb/netflix-shows" target="_blank">Kaggle</a>, comprising listings of all the movies and TV shows available on Netflix from 2008 to 2021. The dataset consists of 12 columns and 8807 rows of data in a structured CSV format. These columns include:
 
 - **Show ID:** Unique identifier.
 - **Type:** Movie or a TV show.
@@ -58,12 +58,11 @@ FROM DupeCTE
 WHERE RowNumber > 1
 ```
 
-View the full SQL code [here](https://github.com/jaredec/jaredec.github.io/blob/master/projects/net/NetflixData.sql){:target="_blank"}.
-
+View the full SQL code <a href="https://github.com/jaredec/jaredec.github.io/blob/master/projects/net/NetflixData.sql" target="_blank">here</a>
 
 ### Visualizing the Data in Tableau
 
-View the dashboard in Tableau Public [here](https://public.tableau.com/views/NetflixInteractiveDashboard_16881575833210/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link){:target="_blank"}.
+View the dashboard in Tableau Public <a href="https://public.tableau.com/views/NetflixInteractiveDashboard_16881575833210/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">here</a>
 
 #### Dashboard Features
 
@@ -83,4 +82,4 @@ Users can navigate through the dashboard by clicking directly on the visualizati
 - Alternatively, you can also filter by clicking directly on the dashboard; filtering by content in Japan:
 <img src="images/net_demo2.gif?raw=true"/>
 
-> Data from [Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows{% raw %}:target="_blank"{% endraw %})
+> Data from <a href="https://www.kaggle.com/datasets/shivamb/netflix-shows" target="_blank">Kaggle</a>
